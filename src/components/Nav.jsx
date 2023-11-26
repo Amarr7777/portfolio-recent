@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowRight } from 'react-feather'
+import './Nav.css'
 
 function Nav() {
   return (

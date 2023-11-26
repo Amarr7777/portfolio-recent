@@ -1,0 +1,19 @@
+.subtext {
+  color: rgb(177, 239, 7);
+  animation: myAnim 1s ease 0s 1 normal both;
+}
+
+.main {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
